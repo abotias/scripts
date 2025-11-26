@@ -3,7 +3,7 @@
 
 IMG="$HOME/Pictures/awareness/awareness.png"
 
-wget -O "$IMG" "https://awareness.rbind.io/images/ducky.png"
+wget -O "$IMG" "https://raw.githubusercontent.com/abotias/scripts/refs/heads/main/img/ducky.png"
 
 gsettings set org.gnome.desktop.background picture-uri "file://$IMG"
 gsettings set org.gnome.desktop.background picture-uri-dark "file://$IMG"
