@@ -1,7 +1,7 @@
 #!/bin/bash
 #!/usr/bin/env bash
 
-IMG="$HOME/Pictures/img.png"
+IMG="$HOME/img.png"
 
 wget -q -O "$IMG" "https://raw.githubusercontent.com/abotias/scripts/refs/heads/main/img/ducky.png"
 
